@@ -1,0 +1,21 @@
+{
+  "name": "pazuzu156/feedgenerator",
+  "description": "Feed Generator",
+  "keywords": ["rss", "generator"],
+  "homepage": "http://kalebklein.com",
+  "type": "library",
+  "license": "GPL",
+  "authors": [
+      {
+          "name": "Kaleb Klein",
+          "email": "klein.jae@gmail.com",
+          "homepage": "http://www.kalebklein.com"
+      }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Pazuzu156\\FeedGenerator": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
