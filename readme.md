@@ -1,4 +1,6 @@
 ## FeedGenerator
+[![StyleCI](https://styleci.io/repos/70547878/shield?branch=master)](https://styleci.io/repos/70547878)
+
 FeedGenerator is a small and simple RSS and Atom feed generator
 
 ## Using
