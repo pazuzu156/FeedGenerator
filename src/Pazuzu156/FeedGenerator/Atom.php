@@ -31,7 +31,7 @@ class Atom
     {
         $xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
         $head = "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n";
-        $head = "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n"
+        $channel = "  <title>$title</title>\n"
         ."  <subtitle>$desc</subtitle>\n"
         .'  <id>urn:uuid:'.Utils::uuid($title)."</id>\n"
         ."  <link href=\"$link\" />\n"
@@ -54,7 +54,7 @@ class Atom
      *
      * @return string
      */
-    public function addItem()
+    public function addItem(array $options)
     {
         $required = ['title', 'summary', 'content', 'link', 'updated'];
         foreach ($required as $r) {
@@ -92,7 +92,7 @@ class Atom
      *
      * @return string
      */
-    public function addAtomLink()
+    public function addAtomLink($link)
     {
         return "  <link href=\"$link\" rel=\"self\" type=\"application/rss+xml\" />\n";
     }
