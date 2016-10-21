@@ -9,7 +9,7 @@ trait Utils
      *
      * @var string
      */
-    public $version = "1.0";
+    public $version = '1.0';
 
     /**
      * Generates a UUID.

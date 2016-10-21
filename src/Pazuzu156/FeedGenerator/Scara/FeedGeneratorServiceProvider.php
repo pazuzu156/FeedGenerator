@@ -16,8 +16,7 @@ class FeedGeneratorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->create('feedgenerator', function()
-        {
+        $this->create('feedgenerator', function () {
             return new Generator();
         });
     }
