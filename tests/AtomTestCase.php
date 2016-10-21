@@ -37,10 +37,10 @@ class AtomTestCase extends PHPUnit_Framework_TestCase
     private function addItem($gen)
     {
         return $gen->addItem([
-            'title' => 'Test Title',
+            'title'   => 'Test Title',
             'summary' => 'Test Summary',
             'content' => 'Test Content',
-            'link' => 'http://example.com/test-title',
+            'link'    => 'http://example.com/test-title',
             'updated' => time(),
         ]);
     }

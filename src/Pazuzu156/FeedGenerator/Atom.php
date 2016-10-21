@@ -22,8 +22,8 @@ class Atom
      * @param string $title
      * @param string $desc
      * @param string $link
-     * @param array $author
-     * @param int $updated
+     * @param array  $author
+     * @param int    $updated
      *
      * @return string
      */
