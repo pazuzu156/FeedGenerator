@@ -163,7 +163,7 @@ class Generator
             ."</rss>\n";
             break;
         case 'atom':
-            $this->_feed = "</feed>\n";
+            $this->_feed .= "</feed>\n";
             break;
         }
 
