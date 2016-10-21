@@ -2,6 +2,7 @@
 
 namespace Pazuzu156\FeedGenerator\Scara;
 
+use Pazuzu156\FeedGenerator\Generator;
 use Scara\Support\ServiceProvider;
 
 /**
