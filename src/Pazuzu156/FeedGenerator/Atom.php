@@ -31,7 +31,7 @@ class Atom
     {
         $xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
         $head = "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n";
-        $head = "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n";
+        $head = "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n"
         ."  <subtitle>$desc</subtitle>\n"
         .'  <id>urn:uuid:'.Utils::uuid($title)."</id>\n"
         ."  <link href=\"$link\" />\n"
