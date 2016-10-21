@@ -34,10 +34,10 @@ class RssTestCase extends PHPUnit_Framework_TestCase
     private function addItem($gen)
     {
         return $gen->addItem([
-            'title' => 'Test Title',
+            'title'       => 'Test Title',
             'description' => 'Test Content',
-            'link' => 'http://example.com/test-title',
-            'pubDate' => time(),
+            'link'        => 'http://example.com/test-title',
+            'pubDate'     => time(),
         ]);
     }
 

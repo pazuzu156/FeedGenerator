@@ -155,7 +155,7 @@ class Generator
     {
         $ex = explode('\\', $this->_type->getType());
         $type = strtolower($ex[count($ex) - 1]);
-        header('Content-type: application/' . $type . '+xml');
+        header('Content-type: application/'.$type.'+xml');
 
         switch ($type) {
         case 'rss':
