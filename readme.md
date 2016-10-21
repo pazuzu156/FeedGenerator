@@ -1,5 +1,9 @@
 ## FeedGenerator
 [![StyleCI](https://styleci.io/repos/70547878/shield?branch=master)](https://styleci.io/repos/70547878)
+[![Build Status](https://travis-ci.org/pazuzu156/FeedGenerator.svg?branch=master)](https://travis-ci.org/pazuzu156/FeedGenerator)
+[![Latest Stable Version](https://poser.pugx.org/pazuzu156/feedgenerator/v/stable)](https://packagist.org/packages/pazuzu156/feedgenerator)
+[![Total Downloads](https://poser.pugx.org/pazuzu156/feedgenerator/downloads)](https://packagist.org/packages/pazuzu156/feedgenerator)
+[![License](https://poser.pugx.org/pazuzu156/feedgenerator/license)](https://packagist.org/packages/pazuzu156/feedgenerator)
 
 FeedGenerator is a small and simple RSS and Atom feed generator
 
@@ -11,13 +15,7 @@ $ composer require pazuzu156/feedgenerator dev-master
 ```
 
 ## Plugin
-I'm working on making FeedGenerator compatible with Laravel, Scara, and Lithium
+I'm working on making FeedGenerator compatible with Laravel, and Lithium
 
 ## Testing
-I decided to use MongoDB to test the feed generation using some sort of database, and Mongo was easiest.
-
-You need MongoDB server and driver for PHP as well as it's PHP library.
-
-Simply run `mongod.bat` to run the server. Oh, and make sure you make a directory in the root of this project called `mongo_database` so the server has somewhere to place it's shit.
-
-You need stuff in your database, when the MongoDB server is up and you have a web server to navigate, go to: `http://<YOUR_URL_TO_ROOT_DIR_HERE>/tests/seed.php` to seed the data, and going to `atom.php` or `rss.php` to test out the library
+You can test with PHPUnit, since it's got unit test classes for PHPUnit.
