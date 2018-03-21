@@ -8,17 +8,17 @@ use Pazuzu156\FeedGenerator\Generator;
 class FeedGeneratorServiceProvider extends ServiceProvider
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function register()
     {
-        $this->app->singleton('feedgenerator', function($app) {
+        $this->app->singleton('feedgenerator', function ($app) {
             return new Generator();
         });
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function provides()
     {

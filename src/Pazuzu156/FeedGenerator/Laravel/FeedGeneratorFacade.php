@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 class FeedGeneratorFacade extends Facade
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected static function getFacadeAccessor()
     {
